@@ -1,0 +1,613 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*-------------------NAVBAR PANNEL--------------------------------*/
+
+.nav{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 60px;
+      
+}
+.nav h1{
+    margin-top: auto;
+    margin-bottom: auto;
+    transform: translateX(60%);
+}
+.nav .nav-list{
+    display: flex;
+    list-style: none;
+    margin: auto;
+}
+
+.nav .nav-list li{
+    margin: 20px;
+}
+
+
+.nav .nav-list li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav .nav-icons{
+    display: flex;
+    list-style: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    transform: translateX(-30%);
+}
+.nav .nav-icons li{
+    margin: 10px;
+}
+
+.nav .nav-icons li a img{
+    width: 20px;
+}
+/*------------------------------HERO SECTION------------------------------------------*/
+
+.hero{
+    position: relative;
+    display: flex;
+}
+
+.hero .social{
+    margin: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+}
+.hero .social li a img{
+    width: 20px;
+    margin: 10px;
+
+}
+.hero .social li a .fb:hover{
+    background-color: aqua;
+    border: 1px solid aqua;
+    border-radius: 9px;
+}
+.hero .social li a .ig:hover{
+    background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border: 1px solid white;
+    border-radius: 9px;
+}
+.hero .social li a .twt:hover{
+    background-color: #00acee;
+    border: 1px solid #00acee;
+    border-radius: 9px;
+}
+.hero .social li a .lindl:hover{
+    background-color: #0e76a8;
+    border: 1px solid #0e76a8;
+    border-radius: 9px;
+}
+
+
+
+
+.hero  .hero-scroll-1{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(59 74 107);;
+    border: 2px solid black;
+    border-style: none;
+    border-radius: 0 0 0 250px ;
+
+}
+
+.hero .hero-scroll-1 .hero-text{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left:60px ;
+    display: block;
+}
+
+.hero .hero-scroll-1 .hero-text h1{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+.hero  .hero-scroll-1 .hero-text p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+
+}
+.hero  .hero-scroll-1 .hero-btn{
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: rgb(230 197 17);;
+    border: 2px solid rgb(230 197 17);;
+    border-radius: 9px;
+    
+}
+.hero  .hero-scroll-1 .hero-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero  .hero-scroll-1 .hero-img{
+       margin-top: auto;
+       margin-bottom: auto;
+       display: block;
+       padding: 20px;
+}
+
+.hero .hero-scroll-1 .hero-img img{
+    width: 100%;
+    
+}
+
+/*---------------------PRODUCTS CSS-------------------------------*/
+
+.products{
+    position: relative;
+    
+}
+.products h1{
+    margin: 60px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.products .product-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr); 
+    grid-gap: 60px;
+    overflow: hidden;
+    margin: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 10px;
+    cursor: pointer;
+
+   
+    
+}
+.products .product-list .products-li-1{
+    background-color: rgb(250 249 250);
+    border: 1px solid rgb(250 249 250);
+    border-radius: 10px 0 0 0;
+}
+
+.products .product-list .products-li-1 h4{
+    width: 100px;
+    height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    background-color: rgb(240 212 58);;
+    border-radius: 10px 0 0 0;
+
+}
+.products .product-list .products-li-1 .text{
+    display: flex;
+    justify-content: space-between;
+}
+.products .product-list .products-li-1 .text h6{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px;
+}
+.products .product-list .products-li-1 .text h6 span{
+    color: rgb(59 74 107);
+    font-weight: 600;
+}
+
+
+.products .product-list .products-li-1 img{
+    width: 100px;
+    margin: 30px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.products .btn{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(230 197 17);;
+    border: 2px solid rgb(230 197 17);;
+    border-radius: 9px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    
+} 
+.products .btn a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+/*-------------------------ABOUT US CSS-------------------------------*/
+
+.about{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(59 74 107);
+    margin-top: 40px;
+    
+}
+.about .about-sec{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: absolute;   
+}
+
+.about .about-sec .about-img img{
+    width: 400px;
+    height: 400px;
+    margin: 60px;
+    display: block;
+}
+
+.about .about-text{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: block;
+}
+.about .about-text h2{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+
+}
+.about .about-text p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+
+}
+.about .about-text .about-btn{
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: rgb(230 197 17);;
+    border: 2px solid rgb(230 197 17);;
+    border-radius: 9px;
+    
+}
+.about .about-text .about-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.features{
+    width: 100%;
+    position: relative;
+}
+.features .features-text{
+    margin: 60px;
+}
+.features .features-text h2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+.features .features-text p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:450;
+}
+.features .feature-box{
+    display: flex;
+    justify-content:center ;
+    
+}
+.features .feature-box .box{ 
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 250px;
+    height: 225px;
+    display: block;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 0.2s ;
+    box-shadow: 4px 7px 8px -2px rgba(0,0,0,0.48);
+}
+.features .feature-box .box:hover{
+    background-color: #3b4a6b;
+    color: white;
+    
+}
+.features .feature-box .box img{
+    width: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 17px;
+    
+}
+.features .feature-box .box img:hover{
+          filter: invert(1);
+}
+
+
+
+.features .feature-box .box h5{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+.features .feature-box .box p{
+    text-align: center;   
+    margin: 9px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.features .feature-box .box a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;  
+    color: #fff;
+}
+.features .feature-btn{
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: rgb(230 197 17);;
+    border: 2px solid rgb(230 197 17);;
+    border-radius: 9px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.features .feature-btn a{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+/*----------------------CONTACT CSS-----------------------------*/
+
+.contact{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.contact .form h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size:35px;
+    color: rgb(12,12,12);
+    margin: 20px;
+}
+.contact .form .area{
+    width: 500px;
+    height: 40px;
+    margin: 20px;
+    padding: 5px;
+    
+}
+.contact .form .message{
+    width: 500px;
+    height: 100px;
+    margin: 20px;
+    padding: 5px;
+    
+}
+.contact .form .btn{
+    
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: rgb(230 197 17);;
+    border: 2px solid rgb(230 197 17);;
+    border-radius: 9px;
+    display: block;
+    color: white;
+    margin: 20px;
+    
+}
+
+
+/*------------------TESTIMONIAL-------*/
+
+.testi-owl{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+   
+    
+}
+
+.testi-owl .box {
+    width: 500px;
+    height: 460px;
+    background-color: rgb(59 74 107);
+    color: rgb(255 255 255);
+    align-items: center;
+    margin: 45px 0;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+ .testi-owl .box img{
+    border-radius: 100%;
+    border: dotted yellow ;
+    padding: 5px;
+    width: 100px;
+    margin: 30px;
+}
+.testi-owl .box h6{
+    margin: 5px;
+    color: yellow;
+}
+ .testi-owl .box p{
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*---------------------FOOTER----------------------*/
+
+.footer{
+    position: absolute;
+    background-color: rgb(59 74 107);
+    width: 100%;
+    height: 380px;
+  
+
+}
+.footer .footer-sec{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer .footer-sec .footer-about{
+    width: 250px;
+    margin: 30px;
+}
+footer .footer-about h2{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+footer .footer-about p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px;
+    
+
+}
+
+.footer .footer-about ul{
+    display: flex;
+    list-style: none;
+  
+   
+}
+.footer .footer-about ul li{
+  
+    background-color: white;
+    margin: 7px;
+    padding: 3px;
+    border-radius: 100%;
+}
+.footer .footer-about ul li a img{
+    width: 30px;
+   
+}
+.footer .footer-sec .footer-reach {
+    width: 250px;
+    margin: 30px;
+}
+.footer .footer-sec .footer-reach h2{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.footer .footer-sec .footer-reach ul{
+    list-style: none;
+    
+
+}
+.footer .footer-sec .footer-reach ul li{
+   margin: 10px;
+   display: block;
+   cursor: pointer;
+}
+
+.footer .footer-sec .footer-reach ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer .footer-sec .footer-reach ul li a img{
+    filter: invert(1);
+    width: 20px;
+   
+}
+.footer .footer-sec .footer-reach ul li a:hover{
+    color: yellow;
+}
+
+.footer .footer-sec .subscribe{
+    width: 250px;
+    margin: 30px;
+}
+
+
+.footer .footer-sec .subscribe .email{
+        width: 300px;
+        height: 30px;
+        margin: 20px;
+        padding: 5px;
+  
+}
+
+.footer .footer-sec .subscribe .sub-btn{   
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: rgb(230 197 17);;
+    border: 2px solid rgb(230 197 17);;
+    border-radius: 9px;
+    display: block;
+    color: white;
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
+
+    
+}
+
+.footer .footer-sec .subscribe h2{
+    
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        margin: 20px;
+        font-size: 30px;
+        font-weight: 600;
+    
+    
+}
+
+.footer h5{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+
+
